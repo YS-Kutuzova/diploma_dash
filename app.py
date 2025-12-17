@@ -20,8 +20,5 @@ def create_app():
   
 
     return app
-app = create_app()
-server = app.server 
 
-if name == "main":
-    app.run_server(debug=False) 
+
